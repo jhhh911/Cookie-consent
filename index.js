@@ -8,3 +8,8 @@ setTimeout(function () {
 closeBtn.onclick = function() {
   modal.style.display = 'none';
 }
+
+const form = document.getElementById('consent-form')
+form.addEventListener('submit', function(e) {
+  e.preventDefault()
+})
